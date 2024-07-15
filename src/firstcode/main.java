@@ -8,10 +8,10 @@ public class main {
         for(int i = 0; i < 100; i++){
             bar[i] = i;
         }
-        System.out.println("The number of even numbers in boo is:");
+        System.out.println("The number of even numbers in boo appear to be:");
         System.out.println(countEvenNum(boo, 5));
 
-        System.out.println("The number of even numbers in bar is:");
+        System.out.println("The number of even numbers in bar appear to be:");
         System.out.println(countEvenNum(bar, 100));
 
     }
